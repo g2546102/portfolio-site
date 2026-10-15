@@ -16,10 +16,27 @@ img {
     max-width: 100%;
 }
 
+/*About*/
+#top {
+    padding-top: 5px;
+
+}
+.top h1 {
+    margin: 10px;
+}
+
+.top img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    display: block;
+    
+}
+
 /*Works*/
 #works-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 0 5%;
 }
@@ -91,8 +108,9 @@ img {
 
 /*天気*/
 #weather-icon {
-    font-size: 30px;
+    font-size: 20px;
     margin:0;
+
 }
 
 
@@ -176,18 +194,18 @@ nav a {
 /* About */
 .about-content {
     max-width: 850px;
-    margin-left: auto;
+    margin-left: 30px;
 }
 
 .about-content h3 {
-    font-size: 48px;
+    font-size: 100pt;
     line-height: 1.2;
     margin-bottom: 30px;
 }
 
 .about-content p {
-    font-size: 17px;
-    line-height: 2;
+    font-size: 20px;
+    line-height: 1.5;
     margin-bottom: 25px;
 }
 
