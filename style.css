@@ -82,7 +82,7 @@ img {
         grid-template-columns: 1fr;
     }
 
-    #works-controls {
+    .works-controls {
         flex-direction: column;
     }
 }
